@@ -2,4 +2,6 @@
     <string name="app_name">Tic Tac Toe</string>
     <string name="Welcome_message">Welcome to Tic Tac Toe</string>
     <string name="grid_description">Our Grid</string>
+    <string name="player1_turn">Player 1: Tap to Play</string>
+    <string name="player2_turn">Player 2: Tap to Play</string>
 </resources>
