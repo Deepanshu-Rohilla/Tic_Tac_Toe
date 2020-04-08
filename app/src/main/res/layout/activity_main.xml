@@ -27,7 +27,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:srcCompat="@drawable/Grid" />
+        app:srcCompat="@drawable/grid" />
 
     <LinearLayout
         android:layout_width="406dp"
@@ -60,11 +60,10 @@
 
             <ImageView
                 android:id="@+id/imageView2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="20sp"
-                app:srcCompat="@drawable/zero" />
+                android:padding="20sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -89,11 +88,10 @@
 
             <ImageView
                 android:id="@+id/imageView5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="20sp"
-                app:srcCompat="@drawable/zero" />
+                android:padding="20sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -118,11 +116,10 @@
 
             <ImageView
                 android:id="@+id/imageView8"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="20sp"
-                app:srcCompat="@drawable/zero" />
+                android:padding="20sp" />
         </LinearLayout>
 
     </LinearLayout>
