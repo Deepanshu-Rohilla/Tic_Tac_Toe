@@ -62,6 +62,24 @@ public class MainActivity extends AppCompatActivity {
                     callForTurn.setText(winner);
                 }
             }
+            // Check for draw
+            boolean draw = false;
+            int i=0;
+            while(i<9){
+                if(current[i]==1 || current[i]==0){
+                    i+=1;
+                }
+                else{
+                    break;
+                }
+            }
+            if(i==9){
+                String drawMessage = "Match Drawn";
+                gameRunning = false;
+                TextView callForTurn = findViewById(R.id.callForTurn);
+                callForTurn.setText(drawMessage);
+            }
+
     }
     public void gameRestart(View view){
         gameRunning = true;
